@@ -57,7 +57,7 @@ export default function BiographyWebsite() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-white to-slate-200 text-slate-800 font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-pink-100 text-slate-800 font-sans">
       <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <HeroSection />
       <AboutSection skills={skills} />

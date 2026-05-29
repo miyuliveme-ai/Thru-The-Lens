@@ -4,7 +4,7 @@ export default function AboutSection({ skills }) {
   return (
     <section id="about" className="max-w-6xl mx-auto px-6 py-16">
       <div className="card">
-        <h2 className="text-4xl font-bold mb-8">About Me</h2>
+        <h2 className="text-4xl font-bold mb-8 text-pink-700">About Me</h2>
 
         <div className="grid md:grid-cols-2 gap-10 items-start">
           <div>
@@ -22,7 +22,7 @@ export default function AboutSection({ skills }) {
               {skills.map((skill) => (
                 <div
                   key={skill}
-                  className="bg-slate-100 rounded-2xl px-4 py-5 text-center font-medium shadow-sm hover:shadow-md hover:bg-slate-200 transition duration-300"
+                  className="bg-pink-50 rounded-2xl px-4 py-5 text-center font-medium shadow-sm hover:shadow-md hover:bg-pink-100 transition duration-300 border border-pink-200"
                 >
                   {skill}
                 </div>

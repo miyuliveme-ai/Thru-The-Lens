@@ -12,15 +12,15 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply px-6 py-3 rounded-2xl bg-slate-900 text-white shadow-lg hover:scale-105 transition duration-300;
+    @apply px-6 py-3 rounded-2xl bg-pink-600 hover:bg-pink-700 text-white shadow-lg hover:scale-105 transition duration-300;
   }
 
   .btn-secondary {
-    @apply px-6 py-3 rounded-2xl border border-slate-300 bg-white hover:bg-slate-100 transition duration-300;
+    @apply px-6 py-3 rounded-2xl border border-pink-300 bg-white hover:bg-pink-50 transition duration-300;
   }
 
   .card {
-    @apply bg-white rounded-[2rem] p-8 shadow-lg border border-slate-100;
+    @apply bg-white rounded-[2rem] p-8 shadow-lg border border-pink-100;
   }
 
   .section-title {

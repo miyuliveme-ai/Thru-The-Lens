@@ -17,7 +17,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="max-w-6xl mx-auto px-6 py-20">
       <div className="card text-center">
-        <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
+        <h2 className="text-4xl font-bold mb-6 text-pink-700">Contact Me</h2>
 
         <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto leading-8">
           Thank you for visiting my biography website. Feel free to connect with me
@@ -44,8 +44,8 @@ export default function ContactSection() {
           </a>
         </div>
 
-        <div className="bg-slate-100 rounded-2xl p-6 text-left max-w-md mx-auto">
-          <h3 className="font-bold text-slate-900 mb-4">Quick Contact Info</h3>
+        <div className="bg-pink-50 rounded-2xl p-6 text-left max-w-md mx-auto border border-pink-200">
+          <h3 className="font-bold text-pink-900 mb-4">Quick Contact Info</h3>
           <p className="text-slate-700 mb-2">
             <span className="font-semibold">Email:</span> {email}
           </p>

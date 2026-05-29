@@ -4,11 +4,11 @@ export default function HeroSection() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-10 items-center">
       <div>
-        <p className="uppercase tracking-[0.3em] text-sm text-slate-500 mb-4">
+        <p className="uppercase tracking-[0.3em] text-sm text-pink-500 mb-4">
           Student Leader • Photojournalist • Volunteer
         </p>
 
-        <h2 className="text-5xl md:text-6xl font-black leading-tight mb-6">
+        <h2 className="text-5xl md:text-6xl font-black leading-tight mb-6 text-pink-700">
           Building Stories Through Leadership & Service
         </h2>
 
@@ -37,14 +37,14 @@ export default function HeroSection() {
       </div>
 
       <div className="flex justify-center">
-        <div className="relative w-80 h-80 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-gradient-to-br from-slate-300 to-slate-400 flex items-center justify-center hover:shadow-3xl transition duration-300">
+        <div className="relative w-80 h-80 rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-gradient-to-br from-pink-200 to-pink-300 flex items-center justify-center hover:shadow-3xl transition duration-300">
           <div className="text-center px-8">
             <div className="w-28 h-28 mx-auto rounded-full bg-white/70 flex items-center justify-center text-5xl mb-6 shadow-inner">
               📸
             </div>
 
-            <h3 className="text-2xl font-bold">NICA ALTHEA LLAGUNO</h3>
-            <p className="text-slate-700 mt-2">
+            <h3 className="text-2xl font-bold text-pink-900">NICA ALTHEA LLAGUNO</h3>
+            <p className="text-pink-700 mt-2">
               Chief Photojournalist & Community Volunteer
             </p>
           </div>
